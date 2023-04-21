@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation&family=Kaushan+Script&family=Roboto+Slab&family=Tilt+Prism&display=swap');
+
+	 * {
+            margin: 0px;
+            font-family: 'Edu NSW ACT Foundation', cursive;
+            color: #078132;
+        }
+
+        body{
+            background-color: #EEF1FF;
+        }
+        .link {
+            color: #61dafb;
+        }
+
+
+        .logo{
+            display: inline;
+            padding-right: 2%;
+            position: absolute;
+  			top: 50%;
+  			right: 20px;
+  			transform: translateY(-50%);
+  			height: 100px;
+  			width: 300px;
+        }
+
+        .logo h1{
+            position: absolute;
+            font-family: 'Delicious Handrawn', cursive;
+            top: 15px;
+            left: 30px;
+            font-size: 90px;
+            font-weight: bold;
+            color: #060606;
+            text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+        }
+
+        .logo span{
+            font-family: 'Delicious Handrawn', cursive;
+            color: #E7B10A;
+        }
+
+        .navbar {
+            background-color: #DBE2EF;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .links a {
+        	font-family: 'Kaushan Script', cursive;
+            color: #343a40;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            width: 150px;
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.2s ease-in-out;
+            border: 2px solid #007bff; 
+            border-radius: 60px; 
+        }
+
+        .links a:hover {
+            color: #f2f5f9;
+            background-color: #37306B;
+            border-color: #343a40;
+            border-radius: 10px; 
+        }
+
+        .top-container{
+        	
+            background-image: url("https://wallpapercave.com/wp/wp1846068.jpg");
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+			height: 300px;
+			width: 100%;
+        }
